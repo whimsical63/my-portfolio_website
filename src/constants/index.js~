@@ -89,7 +89,7 @@ export const myProjects = [
         texture: '/textures/project/project2.mp4',
         logo: '/vite.svg',
         logoStyle: {
-            backgroundColor: 'linear-gradient(135deg, #1E3A8A, #2F6DB5, #2DBFA5)',
+            backgroundColor: '#0E1F38',
             border: '0.2px solid #2DBFA5',
             boxShadow: '0px 0px 80px 10px rgba(45, 191, 165, 0.7)',
         },

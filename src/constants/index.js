@@ -81,7 +81,7 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Awwards Winning Website - Inspired by Zentry',
+        title: 'Awwwards Winning Website - Inspired by Zentry',
         desc: 'A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling.',
         subdesc:
             'An immersive web experience blending sleek animations, dynamic transitions, and video storytelling, crafted with React, Tailwind CSS, and GSAP for a modern, interactive design.',
