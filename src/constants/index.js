@@ -80,43 +80,38 @@ export const myProjects = [
             },
         ],
     },
-    // {
-    //     title: 'LiveDoc - Real-Time Google Docs Clone',
-    //     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    //     subdesc:
-    //         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    //     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    //     texture: '/textures/project/project2.mp4',
-    //     logo: '/assets/project-logo2.png',
-    //     logoStyle: {
-    //         backgroundColor: '#13202F',
-    //         border: '0.2px solid #17293E',
-    //         boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    //     },
-    //     spotlight: '/assets/spotlight2.png',
-    //     tags: [
-    //         {
-    //             id: 1,
-    //             name: 'React.js',
-    //             path: '/assets/react.svg',
-    //         },
-    //         {
-    //             id: 2,
-    //             name: 'TailwindCSS',
-    //             path: 'assets/tailwindcss.png',
-    //         },
-    //         {
-    //             id: 3,
-    //             name: 'TypeScript',
-    //             path: '/assets/typescript.png',
-    //         },
-    //         {
-    //             id: 4,
-    //             name: 'Framer Motion',
-    //             path: '/assets/framer.png',
-    //         },
-    //     ],
-    // },
+    {
+        title: 'Awwards Winning Website - Inspired by Zentry',
+        desc: 'A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling.',
+        subdesc:
+            'An immersive web experience blending sleek animations, dynamic transitions, and video storytelling, crafted with React, Tailwind CSS, and GSAP for a modern, interactive design.',
+        href: 'https://lau-zentry.vercel.app',
+        texture: '/textures/project/project2.mp4',
+        logo: '/vite.svg',
+        logoStyle: {
+            backgroundColor: '#0E1F38',
+            border: '0.2px solid #2DBFA5',
+            boxShadow: '0px 0px 80px 10px rgba(45, 191, 165, 0.7)',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'GSAP',
+                path: '/assets/gsap.ico',
+            },
+        ],
+    },
     // {
     //     title: 'CarePulse - Health Management System',
     //     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',

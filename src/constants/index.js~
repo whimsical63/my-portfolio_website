@@ -30,30 +30,6 @@ export const clientReviews = [
         review:
             'Working with Laurence was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
     },
-    // {
-    //     id: 2,
-    //     name: 'Mark Rogers',
-    //     position: 'Founder of TechGear Shop',
-    //     img: 'assets/review2.png',
-    //     review:
-    //         'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    // },
-    // {
-    //     id: 3,
-    //     name: 'John Dohsas',
-    //     position: 'Project Manager at UrbanTech ',
-    //     img: 'assets/review3.png',
-    //     review:
-    //         'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    // },
-    // {
-    //     id: 4,
-    //     name: 'Ether Smith',
-    //     position: 'CEO of BrightStar Enterprises',
-    //     img: 'assets/review4.png',
-    //     review:
-    //         'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    // },
 ];
 
 export const myProjects = [
@@ -104,43 +80,38 @@ export const myProjects = [
             },
         ],
     },
-    // {
-    //     title: 'LiveDoc - Real-Time Google Docs Clone',
-    //     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    //     subdesc:
-    //         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    //     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    //     texture: '/textures/project/project2.mp4',
-    //     logo: '/assets/project-logo2.png',
-    //     logoStyle: {
-    //         backgroundColor: '#13202F',
-    //         border: '0.2px solid #17293E',
-    //         boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    //     },
-    //     spotlight: '/assets/spotlight2.png',
-    //     tags: [
-    //         {
-    //             id: 1,
-    //             name: 'React.js',
-    //             path: '/assets/react.svg',
-    //         },
-    //         {
-    //             id: 2,
-    //             name: 'TailwindCSS',
-    //             path: 'assets/tailwindcss.png',
-    //         },
-    //         {
-    //             id: 3,
-    //             name: 'TypeScript',
-    //             path: '/assets/typescript.png',
-    //         },
-    //         {
-    //             id: 4,
-    //             name: 'Framer Motion',
-    //             path: '/assets/framer.png',
-    //         },
-    //     ],
-    // },
+    {
+        title: 'Awwards Winning Website - Inspired by Zentry',
+        desc: 'A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling.',
+        subdesc:
+            'An immersive web experience blending sleek animations, dynamic transitions, and video storytelling, crafted with React, Tailwind CSS, and GSAP for a modern, interactive design.',
+        href: 'https://lau-zentry.vercel.app',
+        texture: '/textures/project/project2.mp4',
+        logo: '/vite.svg',
+        logoStyle: {
+            backgroundColor: 'linear-gradient(135deg, #1E3A8A, #2F6DB5, #2DBFA5)',
+            border: '0.2px solid #2DBFA5',
+            boxShadow: '0px 0px 80px 10px rgba(45, 191, 165, 0.7)',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'GSAP',
+                path: '/assets/gsap.ico',
+            },
+        ],
+    },
     // {
     //     title: 'CarePulse - Health Management System',
     //     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
@@ -277,7 +248,7 @@ export const workExperiences = [
             " • Employed a diverse range of testing methodologies, including functional, regression, and performance testing, to detect defects early and uphold high-quality standards across all deliverables.\n" +
             " • Generated and meticulously tracked detailed bug reports, collaborating with development teams to ensure timely and effective resolution, contributing to seamless project progress and software stability.\n" +
             " • Collaborated closely with developers to identify, address, and resolve bugs, contributing to the development of effective testing strategies and maintaining high-quality code standards.",
-        icon: '/assets/framer.svg',
+        icon: '/assets/adv.png',
         animation: 'victory',
     },
     {
