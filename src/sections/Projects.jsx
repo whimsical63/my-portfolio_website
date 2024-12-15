@@ -89,6 +89,9 @@ const Projects = () => {
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
                             <img src="/assets/left-arrow.png" alt="left arrow" className="w-4 h-4"/>
                         </button>
+                        <div className="text-white">
+                            {selectedProjectIndex + 1}/{projectCount}
+                        </div>
                         <button className="arrow-btn" onClick={() => handleNavigation('next')}>
                             <img src="/assets/right-arrow.png" alt="right arrow" className="w-4 h-4"/>
                         </button>

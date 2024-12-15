@@ -112,6 +112,43 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: 'Sample Landing Page - Framer Motion Case Study',
+        desc: 'This case study showcases a landing page with smooth animations using Framer Motion and GSAP. It includes interactive 3D models, dynamic page transitions, and engaging effects, all optimized for performance.',
+        subdesc:
+            'See how Framer Motion, GSAP, and 3D models work together to create a fast, interactive landing page with smooth animations and modern effects.',
+        href: 'https://la2-landingpage-sample.vercel.app/',
+        texture: '/textures/project/project2.mp4',
+        logo: '/lama.ico',
+        logoStyle: {
+            backgroundColor: '#0E1F38',
+            border: '0.2px solid #2DBFA5',
+            boxShadow: '0px 0px 80px 10px rgba(45, 191, 165, 0.7)',
+        },
+        spotlight: '/assets/spotlight3.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'CSS',
+                path: 'assets/css.png',
+            },
+            {
+                id: 3,
+                name: 'GSAP',
+                path: '/assets/gsap.ico',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
     // {
     //     title: 'CarePulse - Health Management System',
     //     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
