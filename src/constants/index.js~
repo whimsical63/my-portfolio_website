@@ -116,14 +116,14 @@ export const myProjects = [
         title: 'Sample Landing Page - Framer Motion Case Study',
         desc: 'This case study showcases a landing page with smooth animations using Framer Motion and GSAP. It includes interactive 3D models, dynamic page transitions, and engaging effects, all optimized for performance.',
         subdesc:
-            'Learn how Framer Motion, GSAP, and 3D models work together to create a fast, interactive landing page with smooth animations and modern effects.',
+            'See how Framer Motion, GSAP, and 3D models work together to create a fast, interactive landing page with smooth animations and modern effects.',
         href: 'https://la2-landingpage-sample.vercel.app/',
         texture: '/textures/project/project2.mp4',
         logo: '/lama.ico',
         logoStyle: {
-            backgroundColor: '#0E1F38',
-            border: '0.2px solid #2DBFA5',
-            boxShadow: '0px 0px 80px 10px rgba(45, 191, 165, 0.7)',
+            backgroundColor: '#22223b',
+            border: '0.2px solid #4a4e69',
+            boxShadow: '0px 0px 80px 10px rgba(215, 217, 206, 0.7)',
         },
         spotlight: '/assets/spotlight3.png',
         tags: [
@@ -155,7 +155,7 @@ export const myProjects = [
     //     subdesc:
     //         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     //     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    //     texture: '/textures/project/project3.mp4',
+    //     texture: '/textures/project/project7.mp4',
     //     logo: '/assets/project-logo3.png',
     //     logoStyle: {
     //         backgroundColor: '#60f5a1',
