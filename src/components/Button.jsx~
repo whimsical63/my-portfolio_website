@@ -1,16 +1,43 @@
 import {navLinks} from "../constants/index.js";
 
-const Button = ({ name, isBeam = false, containerClass }) => {
+const Button = ({name, isBeam = false, containerClass}) => {
     return (
-        <button className={`btn ${containerClass}`}>
-            {isBeam && (
-                <span className="relative flex h-3 w-3">
+        <a href={navLinks[3].href}>
+            <button className={`btn ${containerClass}`}>
+                {isBeam && (
+                    <span className="relative flex h-3 w-3">
                     <span className="btn-ping"/>
                     <span className="btn-ping_dot"/>
                 </span>
-            )}
-            <a href={navLinks[3].href}>{name}</a>
-        </button>
+                )}
+                {name}
+            </button>
+        </a>
+      //   <a
+      //       href={navLinks[3].href}
+      //       onClick={(e) => {
+      //           e.preventDefault(); // Prevent default anchor navigation
+      //           const targetId = navLinks[3].href.replace('#', ''); // Get the target section ID
+      //           const targetElement = document.getElementById(targetId); // Find the target element
+      //
+      //           if (targetElement) {
+      //               targetElement.scrollIntoView({
+      //                   behavior: 'smooth', // Enable smooth scrolling
+      //                   block: 'start',
+      //               });
+      //           }
+      //       }}
+      //   >
+      //       <button className={`btn ${containerClass}`}>
+      //           {isBeam && (
+      //               <span className="relative flex h-3 w-3">
+      //   <span className="btn-ping"/>
+      //   <span className="btn-ping_dot"/>
+      // </span>
+      //           )}
+      //           {name}
+      //       </button>
+      //   </a>
     )
 }
 export default Button
