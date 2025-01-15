@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
 
             <p className="text-white-500">
-                © 2024 Laurence. All rights reserved.
+                © 2025 Laurence. All rights reserved.
             </p>
         </section>
     )
