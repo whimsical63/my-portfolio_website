@@ -25,7 +25,7 @@ export const clientReviews = [
     {
         id: 1,
         name: 'Lloyd Unabia',
-        position: 'Graphic Designer at Lloyd Studios',
+        position: 'Graphic Designer at LAUD Creatives',
         img: 'assets/review1.png',
         review:
             'Working with Laurence was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
@@ -56,7 +56,7 @@ export const myProjects = [
             {
                 id: 2,
                 name: 'Next.js 15',
-                path: 'assets/tailwindcss.png',
+                path: 'assets/nextjs.png',
             },
             {
                 id: 3,
@@ -77,6 +77,53 @@ export const myProjects = [
                 id: 6,
                 name: 'TailwindCSS',
                 path: 'assets/tailwindcss.png',
+            },
+        ],
+    },
+    {
+        title: 'Fizzi - Soda for Gutsy People (Case Study)',
+        desc: 'This case study presents a landing page featuring seamless animations powered by Prismic and GSAP. It highlights interactive 3D models, fluid transitions, and captivating effects, all fine-tuned for optimal performance.',
+        subdesc:
+            'An immersive and visually striking landing page crafted using Prismic and GSAP, featuring Fizzi, a bold and refreshing soda that inspires you to live gutsy. With smooth animations, interactive 3D models, and dynamic transitions, this project delivers an engaging and high-performance experience, bringing the fearless spirit of Fizzi to life.',
+        href: 'https://fizzi-lau.vercel.app/',
+        texture: '/textures/project/prismic_vid.mp4',
+        logo: '/assets/icon.svg',
+        logoStyle: {
+            backgroundColor: '#04293A',
+            border: '0.2px solid #0A5C7D',
+            boxShadow: '0px 0px 80px 10px rgba(7, 89, 133, 0.7)',
+        },
+        spotlight: '/assets/spotlight4.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js 19',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Next.js 15',
+                path: 'assets/nextjs.png',
+            },
+            {
+                id: 3,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 4,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 5,
+                name: 'GSAP',
+                path: '/assets/gsap.ico',
+            },
+            {
+                id: 6,
+                name: 'Prismic',
+                path: '/assets/prismic.png',
             },
         ],
     },
@@ -280,7 +327,7 @@ export const workExperiences = [
         id: 1,
         name: 'ADV Management and Consulting Inc.',
         pos: 'System Engineer',
-        duration: 'August 2024 - Present',
+        duration: 'August 2024 - February 2025',
         title: " • Developed an extensive suite of test cases and established detailed system guidelines to achieve full system coverage, proactively identifying potential issues and mitigating risks prior to release.\n" +
             " • Employed a diverse range of testing methodologies, including functional, regression, and performance testing, to detect defects early and uphold high-quality standards across all deliverables.\n" +
             " • Generated and meticulously tracked detailed bug reports, collaborating with development teams to ensure timely and effective resolution, contributing to seamless project progress and software stability.\n" +
